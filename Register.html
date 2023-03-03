@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DL Community Sign up</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-color:  #f6f6f7;
+        }
+        .login{
+            text-align: center;
+            padding:  10px 60px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .login a{
+            text-decoration: none;
+            color: #383185;
+        }
+        .login #input{
+            margin-top: 30px;
+            border: none;
+            outline: none;
+            color: #383185;
+            border-bottom: 1px solid #383185;
+            background-color: transparent;
+        }
+        #submit{
+            background-color: #383185;
+            color: #ffffff;
+            width: 150px;
+            border: none;
+            font-size: 10px;
+            padding: 5px;
+            margin-top: 30px;
+            margin-bottom: 5px;
+            border-radius: 3px;
+        }
+        ::placeholder{
+            font-style: italic;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <h3>DL Community</h3>
+        <i>Create a new account</i><br>
+        <form>
+            <input type="text" name="firstname" placeholder="first name" id="input" required><br>
+            <input type="text" name="lasttname" placeholder="last name" id="input" required><br>
+            <input type="number" name="tel" placeholder="phone number" id="input" required><br>
+        <input type="text" name="e-mail" placeholder="Your email here" id="input" required><br>
+        <input type="password" name="password" placeholder="your password here" id="input"required><br>
+        <input type="submit" value="Singn up" id="submit"><br>
+    </form>
+        <h3>or</h3>
+        <p>Social Media Sign up</p>
+        <div class="image-conatainer">
+           <a href><img src="image/goo.png" width="23px" ></a>
+           <a href=""><img src="image/facebook.png" width="28px"></a>
+           <a href=""><img src="image/apple icon.png" width="28px"></a>
+        </div>
+        <i>Already have an account?<a href="Login.html">Sign in</a></i>
+    </div>
+    
+</body>
+</html>
