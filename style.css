@@ -40,7 +40,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #000;
-    font-size: 14px;
+  font-size: 15px;
 }
 nav ul li a:hover{
     color: #ff0000;
@@ -79,6 +79,7 @@ nav ul li a:hover{
     text-decoration: none;
     color: #ffffff;
   }
+  
   /* The dots/bullets/indicators */
   .dot {
     height: 10px;
@@ -158,10 +159,9 @@ nav ul li a:hover{
 
   div .image{
     margin: 5px;
-  }
-  div .image img{
     border: 1px solid #ccc;
   }
+  
   div .image:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
@@ -245,6 +245,7 @@ nav ul li a:hover{
 }
 .headertext{
   font-size: 40px;
+  width: 550px;
 
 }
 #subimage{
@@ -375,7 +376,7 @@ input{
     .shoe{
       height: 60px;
       padding-bottom: 30px;
-      width: 95%;
+      width: 100%;
     }
     .Stylish{
       margin-right: 30px;
@@ -433,3 +434,21 @@ input{
     }
   }
 
+@media only screen and (min-width:768px) {
+  nav ul li{
+    margin-right: 10px;
+}
+
+.feature-container > div{
+  width: 150px;
+}
+
+.shoe img{
+  width: 300px;
+  height: 300px;
+}
+#Latest{
+  font-size: 30px;
+  font-weight: bold;
+}
+}
